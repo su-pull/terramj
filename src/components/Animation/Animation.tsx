@@ -13,7 +13,7 @@ const variants = {
 const Framer = ({ children }: FramerProps): JSX.Element => {
   return (
     <motion.div
-      className="Tsx_root"
+      className="pages"
       initial="hidden"
       animate="enter"
       exit="exit"
