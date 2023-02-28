@@ -28,7 +28,7 @@ const Layout = ({ children }: LayoutProps): JSX.Element => {
       </Head>
       <Filter />
       <Header />
-      <Menu />
+      {/* <Menu /> */}
       {children}
       <Footer />
     </Fragment>
