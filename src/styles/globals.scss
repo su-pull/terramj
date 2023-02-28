@@ -1,0 +1,37 @@
+@import "filter";
+@import "motion";
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  padding: 0 58px;
+  min-height: 100%;
+  text-size-adjust: 100%;
+  position: relative;
+}
+
+body {
+  transition-duration: 0.8s;
+  background: #f8bbbb;
+  color: #393939;
+  font-weight: normal;
+  text-align: center;
+  width: 840px;
+  word-break: break-all;
+  margin: auto;
+}
+
+.pages {
+  padding: 58px 100px;
+  margin-bottom: 60px;
+  text-align: left;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
